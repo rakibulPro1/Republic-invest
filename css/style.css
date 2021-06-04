@@ -1,0 +1,330 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* repeated style start */
+.trending-btn{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.new-btn{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color:blue;
+    margin-top: 5px;
+    margin-left: 7rem;
+    
+    
+}
+.funded-btn{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(51, 42, 42);
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 6px 6px;
+
+}
+.soldout-btn{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(51, 42, 42);
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 5px;
+    margin-left: 75px;
+    padding: 6px 6px;
+    
+
+}
+
+
+/* repeated style end  */
+
+/* header start  */
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+#header-section{
+    background-image: url('/assets/bg-img.svg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(87, 143, 192, 0.15);
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.navbar-nav .nav-item{
+    padding: 10px 15px;
+    color: rgb(34, 34, 34);
+}
+.navbar-nav .nav-item .nav-link{
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.nav-button .btn{
+    color:rgb(34, 34, 34);
+    
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-menu ul li {
+    width: 300px;
+    list-style: none;
+}
+.dropdown-menu ul li a{
+    display: block;
+    padding: 10px 15px;
+    color:rgb(34, 34, 34);
+}
+
+.dropdown-menu ul::before {
+    content: '';
+    position: absolute;
+    top: -1.2rem;
+    left: 3.7rem;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+    
+}
+/* header end  */
+
+/* banner start  */
+.banner .banner-heading{
+    display: block;
+
+    font-weight: 900;
+    font-size: 40px;
+}
+.banner .banner-para{
+    display: block;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    line-height:32.5px;
+    margin-bottom: 32px;
+    
+}
+.banner .banner-form-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner .banner-form-text h3{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    line-height: 30px;
+}
+.banner .banner-form-text a{
+    box-sizing: border-box;
+    color: rgb(0, 73, 255);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    text-decoration-color: rgb(0, 73, 255);
+}
+.banner .form-group input{
+    background-color: rgb(255, 255, 255);
+    background-origin: padding-box;
+    background-size: auto;
+    border: 1px rgb(255, 255, 255);
+    margin-bottom: 8px;
+    border-radius: 3px;
+    color:rgb(51, 51, 51);
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner .form-group .btn{
+    background-color:rgb(0, 73, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 9px 30px;
+    
+}
+.banner .form-group p{
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+/* banner emd  */
+
+/* startup section start */
+.startup-heading, .top-angle-heading, .funded-heading{
+    box-sizing: border-box;
+    color: rgba(0, 0, 0,);
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+.startup-para, .top-angle-para, .funded-para{
+    box-sizing: border-box;
+    color: rgba(34, 34, 34);
+    font-size:22px;
+    
+    font-weight:350;
+    line-height:20px;
+
+}
+/* card start  */
+.company-card{
+    border: 1.5px solid rgba(238,238,238);
+    margin: 25px 0px;
+    border-radius: 5px;
+}
+
+.company-card .list-group{
+    display: none;
+}
+.company-card .card-img-top{
+    position: relative;
+}
+
+
+.company-card .card-logo{
+    position: absolute;
+    background-color: white;
+    bottom: 50%;
+    z-index: 2;
+    height: 50px;
+    width: auto;
+    margin-left: 25px;
+    border-radius: 3px;
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 0px 0px 1px inset;
+}
+.company-card .card-body  h5{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgba(34, 34, 34);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.company-card .card-body  p{
+    box-sizing: border-box;
+    display: block;
+    color: rgba(85, 085, 85);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+}
+.company-card .card-link{
+    background-color:rgb(238, 238, 238);
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    line-height: 10px;
+
+}
+
+/* card end  */
+/* start up section end  */
+
+/* all companies start  */
+.all-companies-heading p{
+    font-size: 24px;
+    
+}
+/* all companies end  */
+
+/* footer start  */
+.footer-logo-area p{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+#footer .social-icon{
+    color: white;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 28px;
+}
+#footer .social-icon i{
+    margin: 5px 8px;
+    cursor: pointer;
+}
+#footer .social-icon i:hover{
+    opacity: 0.6;
+}
+#footer .footer-link a p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+    line-height: 18px;
+}
+#footer .footer-link a p:hover{
+    color: white;
+    opacity: 1;
+}
+/* footer end  */
+
